@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7f5">
+  <meta name="description" content="Webs4us designs and develops modern, high-quality websites and digital solutions tailored to your brand.">
+  <title>Webs4us — Your Vision. Our Web Expertise.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#202333;--muted:#626779;--pink:#c36f91;--pink-dark:#a95477;--pink-light:#f8e8ef;--cream:#fbf7f5;--white:#fff;--line:#eee5e7;--night:#1e202d;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff;line-height:1.65}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.045em;line-height:1.13}h1{font-size:clamp(2.8rem,6vw,5rem);font-weight:800;margin-bottom:22px}h2{font-size:clamp(2rem,4vw,3.1rem);font-weight:750;margin-bottom:18px}h3{font-size:1.2rem;letter-spacing:-.025em;margin-bottom:9px}p{color:var(--muted)}a{color:inherit;text-decoration:none}.container{width:min(var(--max),calc(100% - 48px));margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font-size:.73rem;font-weight:700;color:var(--pink);margin-bottom:15px}.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:999px;background:var(--pink);color:#fff;font-weight:700;font-size:.94rem;border:1px solid var(--pink);transition:.2s transform,.2s background,.2s box-shadow;box-shadow:0 8px 22px #c36f9124}.button:hover{transform:translateY(-2px);background:var(--pink-dark);box-shadow:0 12px 26px #c36f9135}.button.secondary{background:transparent;color:var(--ink);border-color:#ded3d8;box-shadow:none}.button.secondary:hover{background:var(--pink-light);border-color:var(--pink-light)}.arrow{font-size:1.1em}.site-header{height:82px;display:flex;align-items:center;background:#ffffffed;backdrop-filter:blur(14px);position:sticky;top:0;z-index:20;border-bottom:1px solid #eee8e8}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{font:800 2rem Manrope,sans-serif;letter-spacing:-.07em;white-space:nowrap}.logo span{color:var(--pink)}.nav-links{display:flex;align-items:center;gap:32px;font-size:.9rem;color:#45495a}.nav-links a:not(.button):hover{color:var(--pink-dark)}.nav-links .button{padding:10px 19px;font-size:.85rem}.menu-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px 11px;color:var(--ink);font-size:1.3rem}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 80% 25%,#f2e3e4 0,transparent 42%),linear-gradient(115deg,#fcf8f6,#f5efec);padding:94px 0 88px}.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:48px;align-items:center}.hero-copy{position:relative;z-index:2}.hero h1 span{color:var(--pink)}.hero-copy p{font-size:1.08rem;max-width:540px;line-height:1.8;margin-bottom:28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-art{min-height:410px;position:relative;display:flex;align-items:center;justify-content:center}.glow{position:absolute;width:82%;height:78%;background:#efd8e2;border-radius:48% 52% 38% 62% / 43% 42% 58% 57%;filter:blur(1px);transform:rotate(-8deg)}.device-laptop{position:relative;width:min(100%,510px);background:#20222a;border:7px solid #25252a;border-radius:18px;padding:10px 10px 18px;box-shadow:0 30px 55px #3a2c3430;transform:rotate(2deg);z-index:2}.device-screen{background:#fff;border-radius:7px;overflow:hidden;min-height:280px}.mock-nav{height:36px;display:flex;align-items:center;justify-content:space-between;padding:0 15px;border-bottom:1px solid #f0e9e9;font-size:9px;color:#444}.mock-nav b{font-size:12px}.mock-nav span{word-spacing:8px}.mock-content{padding:27px 22px;display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:center}.mock-content small{font-size:8px;letter-spacing:1.5px;color:var(--pink);font-weight:bold}.mock-content h3{font-size:25px;margin:10px 0}.mock-content p{font-size:9px;line-height:1.6}.mock-pill{display:inline-block;background:var(--pink);color:white;padding:5px 10px;border-radius:20px;font-size:8px}.mock-photo{height:170px;border-radius:8px;background:linear-gradient(145deg,#e4cfd3,#f4e8e2 45%,#b5a6a2);display:flex;align-items:end;padding:12px;color:#fff;font-size:9px;letter-spacing:1px}.laptop-base{position:absolute;bottom:-12px;left:-4%;right:-4%;height:14px;background:linear-gradient(#c7c8cb,#74767e);border-radius:3px 3px 12px 12px;z-index:3;box-shadow:0 8px 12px #3332}.phone{position:absolute;z-index:4;bottom:0;left:-1%;width:110px;height:220px;border:6px solid #25252a;border-radius:24px;background:#fff;box-shadow:0 20px 35px #342a3229;transform:rotate(-7deg);padding:10px 7px}.phone-notch{height:8px;width:42px;background:#25252a;border-radius:0 0 8px 8px;margin:-10px auto 16px}.phone-brand{font-size:8px;font-weight:800}.phone h4{font:800 18px/1.1 Manrope,sans-serif;letter-spacing:-1px;margin:25px 0 10px}.phone p{font-size:7px}.phone-art{height:50px;border-radius:9px;background:linear-gradient(135deg,#f5dce7,#d8c4d1)}.floating-note{position:absolute;right:-2%;bottom:16px;z-index:5;background:#fff;padding:13px 17px;border-radius:13px;box-shadow:0 10px 30px #32252a18;font-size:.8rem;font-weight:700}.floating-note span{color:var(--pink);margin-right:7px}
+    section{padding:92px 0}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px;align-items:center}.about-copy p{font-size:1rem;line-height:1.9}.about-visual{position:relative;min-height:350px;background:linear-gradient(140deg,#f6e7ed,#f6f1eb);border-radius:28px;padding:32px;display:flex;align-items:center;justify-content:center;overflow:hidden}.desk-card{position:relative;width:90%;max-width:460px;min-height:280px;background:#fff;border-radius:18px;padding:27px;box-shadow:0 22px 45px #4a2d3818;transform:rotate(2deg)}.desk-top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #f0e8e9;padding-bottom:16px;font-size:.75rem}.desk-lines{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:25px}.desk-lines strong{font:700 1.5rem Manrope,sans-serif;line-height:1.3;letter-spacing:-.05em}.desk-lines p{font-size:.8rem}.mini-window{background:linear-gradient(135deg,#ead8de,#f8f0eb);border-radius:12px;min-height:105px;display:flex;align-items:center;justify-content:center;color:var(--pink-dark);font:700 .8rem Manrope,sans-serif;text-align:center;padding:12px}.sparkle{position:absolute;color:var(--pink);font-size:2.4rem;right:20px;bottom:8px}.values{background:var(--cream)}.values-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:center}.values-copy p{line-height:1.9;max-width:610px}.feature-list{display:grid;gap:25px}.feature{display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:start}.feature-icon{width:52px;height:52px;border-radius:16px;background:#f7e4ec;color:var(--pink-dark);display:grid;place-items:center;font-size:1.5rem}.feature h3{font-size:1.08rem}.feature p{font-size:.92rem;margin-bottom:0}.process-grid{display:grid;grid-template-columns:.85fr 1.6fr;gap:70px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.step-number{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--pink-light);color:var(--pink-dark);font:800 1.05rem Manrope,sans-serif;margin-bottom:20px}.step h3{font-size:1.05rem}.step p{font-size:.9rem;line-height:1.8}.step:not(:last-child) .step-number:after{content:"→";position:relative;left:52px;color:#d6a3b8;font-size:1.4rem;font-weight:400}.why{padding:0;background:var(--night);color:white;position:relative;overflow:hidden}.why:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 80% 20%,#bc829655,transparent 40%),linear-gradient(120deg,#1c1e2b,#38313d);opacity:1}.why-inner{position:relative;padding:78px 0;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.why h2{max-width:470px}.why p{color:#d8d7df;max-width:490px}.why-cta{border-left:1px solid #ffffff32;padding-left:70px}.why-cta .paperplane{font-size:2rem;color:#e3a8c0}.why-cta h3{font-size:1.8rem;max-width:400px;margin:14px 0 22px}.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:75px}.contact-intro p{line-height:1.9}.contact-details{display:flex;flex-direction:column;gap:10px;margin-top:26px;color:var(--muted);font-size:.93rem}.contact-form{background:var(--cream);padding:30px;border-radius:22px;border:1px solid #f1e7e9}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px;margin-bottom:17px}.field label{font-size:.84rem;font-weight:700}.field input,.field select,.field textarea{font:inherit;border:1px solid #e4d9dd;background:white;border-radius:10px;padding:12px 13px;outline:none;width:100%;color:var(--ink)}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--pink);box-shadow:0 0 0 3px #c36f9120}.field textarea{resize:vertical;min-height:110px}.form-note{font-size:.8rem;margin:12px 0 0}.site-footer{background:#171923;color:white;padding:28px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:24px}.footer-row .logo{font-size:1.6rem}.footer-row p{margin:0;color:#b9bbc6;font-size:.82rem}.footer-links{display:flex;gap:18px;font-size:.85rem;color:#d8d7df}.footer-links a:hover{color:#e8a9c2}.success{display:none;margin-top:15px;padding:12px 14px;border-radius:10px;background:#e8f6ed;color:#27643d;font-size:.9rem}.success.show{display:block}.back-top{position:fixed;bottom:20px;right:20px;width:42px;height:42px;border-radius:50%;background:#fff;border:1px solid var(--line);box-shadow:0 5px 20px #0001;display:grid;place-items:center;z-index:10;color:var(--pink-dark)}
+    @media(max-width:850px){.nav-links{gap:18px}.hero{padding:65px 0}.hero-grid{gap:22px}.hero-art{min-height:340px}.device-screen{min-height:240px}.mock-content{padding:20px 15px}.mock-content h3{font-size:20px}.mock-photo{height:140px}.phone{width:90px;height:185px}.phone h4{font-size:15px}.about-grid,.values-grid,.process-grid,.contact-grid{gap:40px}.why-cta{padding-left:40px}.steps{gap:18px}}
+    @media(max-width:680px){.container{width:min(var(--max),calc(100% - 36px))}.site-header{height:72px}.logo{font-size:1.7rem}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:71px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:20px 24px 25px;align-items:stretch;gap:17px;flex-direction:column;box-shadow:0 15px 25px #0000000a}.nav-links.open{display:flex}.nav-links .button{align-self:flex-start}.hero{padding:55px 0 50px}.hero-grid{grid-template-columns:1fr;gap:32px}.hero h1{font-size:clamp(2.7rem,12vw,4rem)}.hero-copy p{font-size:1rem}.hero-art{min-height:310px;margin:0 7px 12px}.device-laptop{width:94%;border-width:5px;padding:7px 7px 14px}.device-screen{min-height:220px}.mock-content{padding:15px 12px;gap:10px}.mock-content h3{font-size:18px}.mock-content p{font-size:8px}.mock-photo{height:120px}.phone{left:-3%;bottom:-5px;width:78px;height:165px;border-width:5px;padding:8px 5px}.phone-notch{margin-top:-8px}.phone h4{font-size:13px;margin-top:17px}.floating-note{right:-1%;font-size:.7rem;padding:10px 12px}.laptop-base{bottom:-9px}.section{padding:65px 0}section{padding:66px 0}.about-grid,.values-grid,.process-grid,.why-inner,.contact-grid{grid-template-columns:1fr;gap:34px}.about-visual{min-height:290px;padding:22px}.desk-card{min-height:240px;padding:20px}.desk-lines strong{font-size:1.25rem}.values-grid{gap:32px}.feature-list{gap:22px}.steps{grid-template-columns:1fr;gap:22px}.step{display:grid;grid-template-columns:48px 1fr;column-gap:16px;align-items:start}.step-number{grid-row:span 2;margin:0}.step:not(:last-child) .step-number:after{display:none}.step h3{margin:0 0 5px}.step p{margin:0}.why-inner{padding:60px 0}.why-cta{border-left:0;border-top:1px solid #ffffff32;padding:30px 0 0}.why-cta h3{font-size:1.6rem}.contact-form{padding:22px}.form-row{grid-template-columns:1fr;gap:0}.footer-row{flex-wrap:wrap}.footer-row p{order:3;width:100%}.footer-links{margin-left:auto}.back-top{bottom:12px;right:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Webs4us home">Webs<span>4</span>us</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#services">What We Do</a><a href="#process">Our Process</a><a href="#contact">Contact</a>
+        <a class="button" href="#contact">Start a Project <span class="arrow">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Modern websites. Real impact.</div>
+          <h1>Your vision.<br>Our web <span>expertise.</span></h1>
+          <p>We design and develop modern, high-quality websites and digital solutions that help your brand stand out, connect with your audience, and grow.</p>
+          <div class="hero-actions"><a class="button" href="#contact">Let’s build something <span class="arrow">→</span></a><a class="button secondary" href="#about">Discover Webs4us</a></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a website displayed on a laptop and phone">
+          <div class="glow"></div>
+          <div class="device-laptop"><div class="device-screen">
+            <div class="mock-nav"><b>Webs<span style="color:#c36f91">4</span>us</b><span>Home About Services Contact</span></div>
+            <div class="mock-content"><div><small>DESIGNED FOR YOUR NEXT CHAPTER</small><h3>Build your<br>online presence.</h3><p>Beautiful. Functional. Built for you.</p><span class="mock-pill">Explore more ↗</span></div><div class="mock-photo">A clearer digital future</div></div>
+          </div><div class="laptop-base"></div></div>
+          <div class="phone"><div class="phone-notch"></div><div class="phone-brand">Webs<span style="color:#c36f91">4</span>us</div><h4>Great websites.<br>Bigger dreams.</h4><p>Your next idea starts here.</p><div class="phone-art"></div></div>
+          <div class="floating-note"><span>✦</span> Thoughtful by design</div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container about-grid">
+        <div class="about-copy"><div class="eyebrow">About Webs4us</div><h2>Bridging design,<br>technology, and growth.</h2>
+          <p>At Webs4us, we believe that a great website isn’t just a line of code or a pretty design—it’s the digital front door to your vision. In today’s fast-moving world, your online presence should work as hard as you do, telling your story, engaging your audience, and driving meaningful results.</p>
+          <p>We founded Webs4us with a clear purpose: to make modern, high-quality web design and digital solutions accessible, seamless, and tailored to every brand.</p>
+        </div>
+        <div class="about-visual"><div class="desk-card"><div class="desk-top"><b>Webs4us / Studio notes</b><span>01 — 03</span></div><div class="desk-lines"><div><strong>Better websites.<br>Bigger opportunities.</strong><p>Thoughtfully made for the people behind every brand.</p></div><div class="mini-window">DESIGN WITH<br>INTENTION ✦</div></div></div><div class="sparkle">〰</div></div>
+      </div>
+    </section>
+    <section class="values" id="services">
+      <div class="container values-grid">
+        <div class="values-copy"><div class="eyebrow">What drives us</div><h2>Digital experiences should feel effortless.</h2>
+          <p>Navigation shouldn’t be complicated, design shouldn’t be generic, and building a website shouldn’t feel overwhelming. We approach every project with an engineer’s attention to detail and a designer’s eye for aesthetics.</p>
+          <p>From clean user experiences (UI/UX) and custom web functionality to a distinct visual identity, our goal remains the same: to build digital spaces that connect.</p>
+        </div>
+        <div class="feature-list">
+          <article class="feature"><div class="feature-icon" aria-hidden="true">✳</div><div><h3>Thoughtful Design</h3><p>Beautiful, modern experiences that feel true to your brand and your audience.</p></div></article>
+          <article class="feature"><div class="feature-icon" aria-hidden="true">⌘</div><div><h3>Smart Technology</h3><p>Fast, responsive, and reliable solutions built with your future in mind.</p></div></article>
+          <article class="feature"><div class="feature-icon" aria-hidden="true">♡</div><div><h3>A Human Approach</h3><p>Your goals matter. We work with you, not just for you, at every step.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="process">
+      <div class="container process-grid">
+        <div><div class="eyebrow">How we work</div><h2>Simple steps.<br>Lasting results.</h2><p>Clear communication, considered decisions, and a result you’re excited to share.</p></div>
+        <div class="steps">
+          <article class="step"><div class="step-number">01</div><h3>Listen & Understand</h3><p>We get to know your brand, your goals, and the people you want to reach.</p></article>
+          <article class="step"><div class="step-number">02</div><h3>Design & Engineer</h3><p>We blend sleek aesthetics, high performance, and intuitive design to bring your platform to life.</p></article>
+          <article class="step"><div class="step-number">03</div><h3>Launch & Empower</h3><p>We deliver a responsive, reliable website you can feel proud to share with the world.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="container why-inner">
+        <div><div class="eyebrow" style="color:#e5a9c1">Why “Webs4us”?</div><h2>Because the web belongs to all of us.</h2><p>Whether you’re launching a new idea, elevating an existing brand, or ready to scale up, Webs4us is built for you—wherever you are in your journey.</p></div>
+        <div class="why-cta"><div class="paperplane" aria-hidden="true">↗</div><h3>Ready to build something great together?</h3><a class="button" href="#contact">Start your project <span class="arrow">→</span></a></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro"><div class="eyebrow">Let’s talk</div><h2>Your next chapter starts here.</h2><p>Tell us a little about what you’re building. Share your idea, your goals, or even just where you’d like to begin—we’ll take it from there.</p><div class="contact-details"><span>✦ Thoughtful design, made for your brand</span><span>↗ A collaborative process from start to launch</span><span>◎ Websites that work across devices</span></div></div>
+        <form class="contact-form" id="project-form">
+          <div class="form-row"><div class="field"><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" required placeholder="Jane Smith"></div><div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="jane@yourbrand.com"></div></div>
+          <div class="field"><label for="project">What do you need?</label><select id="project" name="project"><option value="New website">A new website</option><option value="Website redesign">A website redesign</option><option value="UI/UX design">UI/UX design</option><option value="Custom functionality">Custom functionality</option><option value="Branding and visual identity">Branding / visual identity</option><option value="Not sure yet">I’m still exploring</option></select></div>
+          <div class="field"><label for="message">Tell us about your project *</label><textarea id="message" name="message" required placeholder="A little about your brand, goals, timeline, or idea..."></textarea></div>
+          <button class="button" type="submit">Prepare project inquiry <span class="arrow">↗</span></button>
+          <p class="form-note">Your email app will open with your message ready to send. You can review it before sending.</p>
+          <div class="success" id="form-success" role="status">Your email draft is ready. Review it and press Send in your email app.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-row"><a class="logo" href="#home">Webs<span>4</span>us</a><p>Bridging design, technology, and growth.</p><div class="footer-links"><a href="#about">About</a><a href="#services">What we do</a><a href="#contact">Contact</a></div></div></footer>
+  <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      toggle.textContent = open ? '×' : '☰';
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation');
+      toggle.textContent = '☰';
+    }));
+    document.getElementById('project-form').addEventListener('submit', event => {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      const subject = encodeURIComponent('Webs4us project inquiry — ' + data.get('project'));
+      const body = encodeURIComponent(
+        'Hello Webs4us,\\n\\nI would like to discuss a project.\\n\\nName: ' + data.get('name') +
+        '\\nEmail: ' + data.get('email') + '\\nProject type: ' + data.get('project') +
+        '\\n\\nProject details:\\n' + data.get('message') + '\\n\\nSent from the Webs4us website.'
+      );
+      // Replace CONTACT_EMAIL below with your real business email before publishing.
+      window.location.href = 'mailto:CONTACT_EMAIL?subject=' + subject + '&body=' + body;
+      document.getElementById('form-success').classList.add('show');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) { e.preventDefault(); target.scrollIntoView({behavior:'smooth'}); }
+    }));
+  </script>
+</body>
+</html>
